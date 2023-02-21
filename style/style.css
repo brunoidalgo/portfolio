@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    /* Margin - Limpa uma área fora da borda. A margem é transparente*/
+    margin: 0px;
+
+    /* Padding - Limpa uma área ao redor do conteúdo. O enchimento é transparente*/
+    padding: 0px;
+}
+
+
+/* Vavriáveis em Css */
+
+:root {
+    --cor--primaria: #000000;
+    --cor--secundaria: #F6F6F6;
+    --cor--terciaria: #24D4FD;
+    --cor--hover:#272727;
+
+    --style--primaria--fonte:#E6C01C;
+    --cor--secundaria--fonte:'Montserrat', sans-serif;
+}
+
+
+body {
+
+    /* Nenhum elemento filho sairá do elemento pai*/
+    box-sizing: border-box;
+
+    /* Define a altura e o Vh(ViewPortHigh) define a ocupação da tela do usuário*/
+    /* height: 100vh;  */
+
+    /*Altera cor de fundo da página Web*/
+    background-color: var(--cor--primaria);
+
+    /*Altera cor da fonte*/
+    color: var(--cor--secundaria);
+
+    /*#7C2DFA*/
+}
+
+
+.cabecalho {
+    padding: 2% 0% 0% 19%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cabecalho-menu-link {
+    font-family: var(--cor--secundaria--fonte);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor--);
+}
+
+.cabecalho-menu-link:hover {
+    transform: scaleX(1.1);
+    color: var(--style--primaria--fonte);
+}
+
+img {
+    border-radius:16px ;
+}
+
+
+.destaque-titulo {
+    color:var(--style--primaria--fonte);
+    
+}
+
+.apresentacao {
+
+    padding: 6% 15%;
+
+    /* Espaçamento entre as seções*/
+    justify-content: space-between;  
+
+    /* Irá alinhar o conteudo da tag pai para a tag filho*/
+    display: flex;
+
+    /* Irá alinhar o conteúdo*/
+    align-items:center;
+
+    gap: 82px;
+}
+
+
+.apresentacao-conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao-titulo {
+
+    /* Medida (rem) se adequa a fonte do navegador do usuário */
+    font-size: 2.25rem;
+    font-family: var(--cor--secundaria--fonte);
+}
+
+.apresentacao-paragrafo {
+    font-size: 20px;
+    font-family: var(--cor--secundaria--fonte); 
+}
+
+.apresentacao-paragrafo-habilidades {
+    font-size: 1.5rem;
+    font-family: var(--cor--secundaria--fonte);
+    /* display: flex;
+    flex-direction: row ; */
+    padding-bottom: 20px;
+}
+
+.apresentacao-paragrafo-habilidades-dois {
+    font-family: var(--cor--secundaria--fonte);
+    font-size: 1.5rem;
+    padding:70px;
+    padding-bottom: 15px;
+}
+
+
+.apresentacao-link {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao-redes {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.apresentacao-img {
+    /* background-color: #E6C01C; */
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 14px;
+    border: 2px solid var(--style--primaria--fonte);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding:21.5px 0px ;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+    font-family:var(--cor--secundaria--fonte);
+    
+}
+
+.apresentacao-img:hover {
+    background-color: var(--cor--hover);
+    /* border-color:#7C2DFA ; */
+    transform: scale(1.2);
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    
+}
+
+.apresentacao-foto {
+    width: 50% ;
+    border:solid 4px #E6C01C;
+}
+
+.apresentacao-lista {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.apresentacao-titulo-habilidades {
+    font-size: 2.5rem;
+    font-family: 'Krona One', sans-serif;
+    padding-bottom: 30px;
+}
+
+.rodape {
+    color: var(--cor--primaria);
+    background-color:var(--style--primaria--fonte) ;
+    text-align: center;
+    padding: 24px;
+    font-family:var(--cor--secundaria--fonte);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 1200px){
+    .cabecalho {
+        padding:10% ;
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 6% 5%;
+    }
+
+    .apresentacao-conteudo {
+        width: auto;
+    }
+}
+    
