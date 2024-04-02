@@ -8,9 +8,9 @@
 
 ## Ferramentas utilizadas:
 
-* HTML
+* Html
 
-* CSS
+* Css
 
 * Visual Studio Code
 
@@ -30,7 +30,7 @@
 
 * Css: border-radius, px, font-size e etc...
 
-## Feito por:
+# Feito por:
 
-### Bruno idalgo ###
+## Bruno idalgo
 
