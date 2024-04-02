@@ -1,8 +1,8 @@
 # Portfolio
 
-* Portfólio desenvolvido com os cursos de Html e Css da Alura
+- Portfólio desenvolvido com os cursos de Html e Css da Alura
 
-### Bem vindo ao meu primeiro projeto de Portfólio:
+#### Bem vindo ao meu primeiro projeto de Portfólio:
 
 ![image](https://user-images.githubusercontent.com/114194860/220438844-1f83a89b-b311-4afb-aae1-7e026fd2fd7a.png)
 
@@ -30,7 +30,7 @@
 
 * Css: border-radius, px, font-size e etc...
 
-# Feito por:
+### Feito por:
 
-## Bruno idalgo
+#### Bruno idalgo
 
