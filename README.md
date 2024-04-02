@@ -1,5 +1,6 @@
 # Portfolio
-Portfólio desenvolvido com os cursos de Html e Css da Alura.
+
+* Portfólio desenvolvido com os cursos de Html e Css da Alura
 
 ### Bem vindo ao meu projeto portfólio.
 
